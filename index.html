@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>iBlog - Heaven for bloggers</title>
+</head>
+
+<body>
+    <nav class="navigation width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="img/blog.jpg" class="logo"></span>
+                <!--<span>iBlog</span>-->
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Article Search">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="width-1 m-auto">
+        <hr>
+    </div>
+    <div class="content width-1 m-auto my-2">
+        <div class="content-left">
+            <h1>The heaven for bloggers</h1>
+            <p>A blog is a dynamic online platform where individuals or organizations can publish content, share ideas,
+                and engage with an audience. Typically presented in a reverse chronological order, blogs cover a wide
+                array of topics, ranging from personal experiences and hobbies to professional insights and industry
+                trends. They serve as a space for writers to express their thoughts, showcase expertise, and connect
+                with readers through comments and social media integration. The interactive nature of blogs fosters
+                community building and allows for continuous learning and sharing of knowledge in an accessible and
+                informal manner.<br>
+                The interactive nature of blogs fosters
+                community building and allows for continuous learning and sharing of knowledge in an accessible and
+                informal manner.<br>
+                The interactive nature of blogs fosters
+                community building and allows for continuous learning and sharing of knowledge in an accessible and
+                informal manner.
+            </p>
+        </div>
+        <div class="content-right">
+            <img src="img/home.jpg" alt="iBlog">
+        </div>
+    </div>
+    <div class="width-1 m-auto">
+        <hr>
+    </div>
+    <div class="home-articles width-1 m-auto font1">
+        <div class="year-box">
+            <h3>Year</h3>
+            <div>
+                <input type="radio" name="Year" id="">2020
+            </div>
+            <div>
+                <input type="radio" name="Year" id="">2021
+            </div>
+        </div>
+        <div class="down">
+            <h1>Publish Your Passions, Your Way!</h1>
+            <h3>Create a unique and beautiful blog easily.</h3>
+            <form action="/blog.html" method="get">
+                <button class="btn">Create Your Blog.</button>
+            </form>
+        </div>
+        <div class="container">
+            <div class="image fade">
+                <a href="/blogpost.html"><img src="img/3.jpg"></a>
+            </div>
+            <div class="image fade ">
+                <a href="/blogpost.html"><img src="img/6.jpg"></a>
+            </div>
+            <div class="image fade">
+                <a href="/blogpost.html"><img src="img/1.jpg"></a>
+            </div>
+            <div class="image fade">
+                <a href="/blogpost.html"><img src="img/4.jpg"></a>
+            </div>
+            <div class="image fade">
+                <a href="/blogpost.html"><img src="img/5.jpg"></a>
+            </div>
+            <div class="image fade">
+                <a href="/blogpost.html"><img src="img/2.jpg"></a>
+            </div>
+        </div>
+        <div class="m-auto width-1">
+            <a id="prev" onclick="show_slide(-1)">&#10094;</a>
+            <a id="next" onclick="show_slide(1)">&#10095;</a>
+        </div>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <script src="js/script.js"></script>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 iBlog. All rights reserved.</p>
+        <p><a> Privacy Policy </a> | <a> Terms of Service </a></p>
+        <a href="https://www.vecteezy.com/vector-art/7414839-vector-illustration-of-fingers-typing-on-a-laptop">Vector
+            Credits: Vecteezy</a>
+    </div>
+</body>
+
+</html>
